@@ -14,6 +14,11 @@ npm start
 ```
 Game will be launched, enjoy!
 
+# Packaging
+```bash
+npm run dist
+```
+
 # Portfolio 
 Read portfolio [Game 2048(Electron)](http://jojozhuang.github.io/portfolio/game-2048-electron/) to learn the main functions of this cross-platform desktop app.
 
