@@ -1,0 +1,49 @@
+{
+  "name": "game-2048-electron",
+  "windowtitle": "2048",
+  "version": "1.0.0",
+  "description": "Popular 2048 Number Puzzle Game",
+  "homepage": "https://github.com/jojozhuang/game-2048-electron",
+  "main": "main.js",
+  "author": {
+    "name": "Rong Zhuang",
+    "email": "jojozhuang@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron ./main.js",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "johnny.portfolio.game2048",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ],
+      "icon": "build/icon.icns"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "build/icons/"
+    },
+    "win": {
+      "target": "squirrel",
+      "icon": "build/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^1.7.6",
+    "electron-builder": "^19.26.3"
+  }
+}
