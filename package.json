@@ -34,7 +34,10 @@
       "icon": "build/icon.icns"
     },
     "linux": {
-      "target": ["AppImage", "deb"],
+      "target": [
+        "AppImage",
+        "deb"
+      ],
       "icon": "build/icons/"
     },
     "win": {
@@ -43,7 +46,7 @@
     }
   },
   "devDependencies": {
-    "electron": "^1.7.6",
+    "electron": "^1.8.8",
     "electron-builder": "^19.26.3"
   }
 }
