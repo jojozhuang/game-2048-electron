@@ -23,4 +23,4 @@ npm run dist
 Read portfolio [Game 2048(Electron)](https://jojozhuang.github.io/portfolio/game-2048-electron/) to learn the main functions of this cross-platform desktop app.
 
 # Tutorial
-Read tutorial [Converting Web App to Desktop App with Electron](https://jojozhuang.github.io/tutorial/nodejs/converting-web-app-to-desktop-app-with-electron/) to learn how this cross-platform desktop app is built.
+Read tutorial [Converting Web App to Desktop App with Electron](https://jojozhuang.github.io/tutorial/converting-web-app-to-desktop-app-with-electron) to learn how this cross-platform desktop app is built.
