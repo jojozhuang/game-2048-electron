@@ -13,9 +13,9 @@ app.on('ready', () => {
 function createWindow() {
    win = new BrowserWindow({
         width: 530, 
-        height: 740, 
+        height: 770, 
         minWidth: 530,
-        minHeight: 740,
+        minHeight: 770,
         resizable: false,
         title: config.windowtitle,
         icon: path.join(__dirname, 'build/icons/64x64.png') })
